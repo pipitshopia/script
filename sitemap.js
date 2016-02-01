@@ -86,7 +86,7 @@ function loadtoc(json) {
             if (postcontent.length > numChars) {
                postcontent = postcontent.substring(0,numChars);
                var quoteEnd = postcontent.lastIndexOf(" ");
-               postcontent = postcontent.substring(0,quoteEnd) + '...';
+               postcontent = postcontent.substring(0,quoteEnd);
             }
 
          // get the post labels from the entry
